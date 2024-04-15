@@ -3,9 +3,13 @@ This project aims to automatically generate captions for images by extracting fe
 
 ### Approach
 -Dataset Preparation: Prepare a dataset of images with corresponding captions. The dataset should be suitable for training an image captioning model.
+
 -Model Architecture: Use a pretrained CNN model (Inception v3) to extract features from images. These features are then fed into an LSTM network to generate captions.
+
 -Training: Train the model using the prepared dataset. The model learns to generate captions based on the features extracted from images.
+
 -Evaluation: Evaluate the model's performance using metrics such as BLEU score and human evaluation to assess the quality of generated captions.
+
 -Deployment: Deploy the trained model to generate captions for new images automatically.
 
 ### Results
